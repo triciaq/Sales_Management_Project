@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project was developed to fulfill a **business request for an executive sales report** aimed at sales managers and representatives. The report provides insights into customer behavior, product performance, and sales trends over time — enabling more informed strategic decision-making.
+This project was developed to fulfill a **business request for an executive sales report** aimed at sales managers and representatives. The report provides insights into customer behavior, product performance, and sales trends over time enabling more informed strategic decision-making.
 
 Built with **SQL** for data transformation and **Power BI** for visualization, this project demonstrates a complete BI workflow from raw data extraction to stakeholder-ready dashboards.
 
@@ -40,7 +40,7 @@ The business stakeholders defined specific needs that translated into the follow
 - **FactInternetSales** → Filtered for the last two years; selected relevant fields
 - **Sales Budget (Excel)** → Loaded and connected in Power BI for comparison against actuals
 
-### 📌 Sample SQL Transformations
+### 📌 SQL Transformation
 
 ```sql
 -- DIM_Calendar (Sample)
@@ -59,13 +59,11 @@ WHERE
   CalendarYear >= 2019
 ```
 
-Other transformation snippets available in the repository under `/sql` folder.
+Other transformation snippets available in the repository 
 
 ---
 
 ## 📐 Data Model
-<img width="815" height="480" alt="Image" src="https://github.com/user-attachments/assets/b02a2ae6-ae18-483d-9d7e-f78a8dbc71fc" />
-
 --
 The Power BI data model features:
 - Star schema design
@@ -78,6 +76,8 @@ The Power BI data model features:
 - ProductKey → DimProduct
 - OrderDateKey → DimDate
 - Sales Budget joined on Month & Year
+- 
+<img width="815" height="480" alt="Image" src="https://github.com/user-attachments/assets/b02a2ae6-ae18-483d-9d7e-f78a8dbc71fc" />
 
 ---
 
@@ -103,13 +103,14 @@ The Power BI report is structured across **three key pages**:
 3. **Product Drilldown**
    - Filterable by product
    - Product trends, subcategory breakdown
-     
+  <img width="877" height="491" alt="Image" src="https://github.com/user-attachments/assets/b4d53e65-a5be-4845-aacc-e9105937ef26" />   
 ---
+
 ## 📈 Key Insights & Business Findings
 
 The executive dashboard revealed several data-driven insights critical for decision-making:
 
-- **🔝 80/20 Rule in Customer Sales**: Approximately 20% of customers contributed to over 70% of total sales revenue, signaling a highly concentrated customer base. This opens up opportunities for customer loyalty initiatives, VIP programs, and targeted marketing campaigns.
+- **🔝 Customer Sales**: Approximately 20% of customers contributed to over 70% of total sales revenue, signaling a highly concentrated customer base. This opens up opportunities for customer loyalty initiatives, VIP programs, and targeted marketing campaigns.
 
 - **🔥 Best-Selling Products**: A handful of product subcategories dominated sales. For instance, products in the *"Accessories"* and *"Bikes"* categories had the highest sales volumes and revenue — indicating areas where inventory and marketing spend should be focused.
 
@@ -118,12 +119,6 @@ The executive dashboard revealed several data-driven insights critical for decis
 - **📊 Seasonal Trends**: Sales peaked in **Q4** of each year, particularly during **November and December**, suggesting seasonal buying patterns and opportunities for targeted promotions during the holiday season.
 
 - **📉 Budget Variance**: Sales underperformed against budget projections in Q2 of the most recent year, highlighting a need for closer tracking of marketing efforts, market conditions, or inventory issues.
-
----
-
-
-### 🖼️ Preview  
-![Dashboard Screenshot](./assets/dashboard_preview.png)  
 
 ---
 
