@@ -64,7 +64,7 @@ Other transformation snippets available in the repository under `/sql` folder.
 ---
 
 ## 📐 Data Model
-
+<img width="815" height="480" alt="Image" src="https://github.com/user-attachments/assets/b02a2ae6-ae18-483d-9d7e-f78a8dbc71fc" />
 The Power BI data model features:
 - Star schema design
 - Fact table: `FactInternetSales`
