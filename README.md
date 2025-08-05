@@ -94,6 +94,24 @@ The Power BI report is structured across **three key pages**:
 3. **Product Drilldown**
    - Filterable by product
    - Product trends, subcategory breakdown
+     
+---
+## 📈 Key Insights & Business Findings
+
+The executive dashboard revealed several data-driven insights critical for decision-making:
+
+- **🔝 80/20 Rule in Customer Sales**: Approximately 20% of customers contributed to over 70% of total sales revenue, signaling a highly concentrated customer base. This opens up opportunities for customer loyalty initiatives, VIP programs, and targeted marketing campaigns.
+
+- **🔥 Best-Selling Products**: A handful of product subcategories dominated sales. For instance, products in the *"Accessories"* and *"Bikes"* categories had the highest sales volumes and revenue — indicating areas where inventory and marketing spend should be focused.
+
+- **📉 Underperforming Products**: Several products showed little to no sales activity over the last two years. These products may be obsolete or irrelevant to current market demand and should be reviewed for possible discontinuation or rebranding.
+
+- **📊 Seasonal Trends**: Sales peaked in **Q4** of each year, particularly during **November and December**, suggesting seasonal buying patterns and opportunities for targeted promotions during the holiday season.
+
+- **📉 Budget Variance**: Sales underperformed against budget projections in Q2 of the most recent year, highlighting a need for closer tracking of marketing efforts, market conditions, or inventory issues.
+
+---
+
 
 ### 🖼️ Preview  
 ![Dashboard Screenshot](./assets/dashboard_preview.png)  
@@ -107,7 +125,4 @@ The Power BI report is structured across **three key pages**:
 - 🧠 **Business-aligned storytelling**: Focused on driving actions through insights
 - 📈 **Performance monitoring**: Budget comparisons, top performers, sales evolution
 
----
 
-Have questions about the project or want to collaborate?  
-Feel free to open an issue or reach out directly via [email](mailto:your.email@example.com).
