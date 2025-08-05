@@ -1,5 +1,5 @@
 
-# 📊 Sales Management Dashboard | Business Intelligence Portfolio Project
+# 📊 Sales Management Dashboard
 
 ## Overview
 
@@ -65,6 +65,8 @@ Other transformation snippets available in the repository under `/sql` folder.
 
 ## 📐 Data Model
 <img width="815" height="480" alt="Image" src="https://github.com/user-attachments/assets/b02a2ae6-ae18-483d-9d7e-f78a8dbc71fc" />
+
+--
 The Power BI data model features:
 - Star schema design
 - Fact table: `FactInternetSales`
@@ -80,6 +82,10 @@ The Power BI data model features:
 ---
 
 ## 📊 Dashboard Overview
+
+<img width="875" height="493" alt="Image" src="https://github.com/user-attachments/assets/66b2bd56-3767-4a90-9ae2-85095e9b9d4a" />
+
+---
 
 The Power BI report is structured across **three key pages**:
 
