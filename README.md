@@ -83,19 +83,22 @@ The Power BI data model features:
 
 ## 📊 Dashboard Overview
 
-<img width="875" height="493" alt="Image" src="https://github.com/user-attachments/assets/66b2bd56-3767-4a90-9ae2-85095e9b9d4a" />
-
----
-
 The Power BI report is structured across **three key pages**:
 
 1. **Executive Dashboard Overview**
    - KPIs: Total Sales, Sales vs Budget
    - Charts: Sales Trend, Top Products, Top Customers
 
+
+<img width="875" height="493" alt="Image" src="https://github.com/user-attachments/assets/66b2bd56-3767-4a90-9ae2-85095e9b9d4a" />
+
+---
+
 2. **Customer Drilldown**
    - Filterable by customer
    - Detailed table + visual insights
+  <img width="872" height="488" alt="Image" src="https://github.com/user-attachments/assets/60b65600-fca3-4640-b328-5c4d36817b32" />
+  ---
 
 3. **Product Drilldown**
    - Filterable by product
